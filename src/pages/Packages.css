@@ -1,0 +1,76 @@
+.packages-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.packages-page h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.packages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.package-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 900px;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.package-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.package-card h2 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.destinations-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.destination-info {
+  width: 200px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 0.5rem;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.destination-info img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.destination-info h3 {
+  margin: 0.5rem 0;
+  color: #007bff;
+}
+
+.destination-info p {
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0;
+}
+
+.destination-info:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
