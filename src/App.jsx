@@ -8,7 +8,12 @@ import Packages from "./pages/Packages";
 import Hotels from "./pages/Hotels";
 import Flights from "./pages/Flights";
 import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+
+import PlaceSearch from "./pages/PlaceSearch";
 import Footer from "./components/Footer";
+import React from "react";
+
 function App() {
   return (
     <Router>
@@ -22,8 +27,10 @@ function App() {
         <Route path="/hotels" element={<Hotels />} />
         <Route path="/flights" element={<Flights />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/search" element={<PlaceSearch />} />
       </Routes>
-      <Footer /> {/* 👈 Footer always visible */}
+      <Footer /> {/* Footer always visible */}
     </Router>
   );
 }
